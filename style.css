@@ -1,0 +1,58 @@
+body {
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.background-img {
+  display: flex;
+  flex-direction: column;
+  background-image: url(imgs/jake-grella-.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.santa-barbara-home {
+  font-size: 4em;
+}
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 1300px;
+  font-weight: 300;
+  position: fixed;
+}
+ul {
+  display: flex;
+}
+li {
+  display: inline;
+  padding: 0 15px 0 15px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+.h2-bold {
+  font-size: 30px;
+}
+.p-text {
+  font-weight: 400;
+}
